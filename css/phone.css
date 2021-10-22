@@ -1,0 +1,131 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* navigation bar logo and image*/
+#logo{
+    margin : 10 px 10px
+   }
+   
+   #logo img{
+        height:  170px;
+        margin : 6px 6px;
+       
+   }
+/* Home section */
+#home{
+    flex-direction: column;
+    height: 370px; 
+    padding: 3px 28px;
+    align-items: center;
+}
+
+#home::before{
+    flex-direction: column;
+    height: 480px; 
+    width: 90%;
+}
+#Home .h1{
+    color:rgb(163, 42, 5);
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    padding:0px;
+    text-size-adjust: 1px;
+   
+}
+    #HOME p{
+        color: rgb(219, 57, 17);
+       text-align: justify;
+        font-family: 'Baloo Bhai 2', cursive;
+        padding:0px;
+        text-size-adjust: 1px;
+        display: none;
+    }
+
+    /* PROJECTS section*/
+
+    #PROJECTS{
+       flex-direction: column;
+       align-items: center;
+    }
+   
+    #PROJECTS .box {
+        
+        padding: 14px;
+        margin: 2px 0px; 
+        margin-bottom: 20px;
+    }
+     
+    
+    #PROJECTS .box img{
+        height: 275px;
+        margin: auto;
+        display: block;
+        width: 75%;
+        
+    }
+    
+
+
+    /* product section*/
+
+    
+       
+    #PRODUCTS {
+       flex-direction: column;
+       align-items: center;
+    }
+
+
+    #PRODUCTS .box{
+       
+        
+        padding: 14px;
+        margin: 2px 0px; 
+        margin-bottom: 20px;
+        
+    }
+    #PRODUCTS .box img{
+        height: 275px;
+        margin: auto;
+        width: 75%;
+        display: block;
+        
+    }
+
+
+    
+
+    /* ABOUTUS sectiom*/
+
+    
+    #ABOUTUS{
+    flex-direction: column;    
+    align-items: center;
+    }
+    
+/*contact sestion*/
+
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+
+    color:black;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    padding: 0px;
+   
+}
+        
